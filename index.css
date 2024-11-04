@@ -6,11 +6,12 @@
     display: flex;
     justify-content: center;
     align-content: flex-end;
-    
 }
 
 body {
     background-color: aquamarine;
     background-image: url('MICA.jpeg');
     background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
