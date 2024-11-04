@@ -1,0 +1,16 @@
+.box {
+    --dim: 200px;
+    background-color: red;
+    width: var(--dim);
+    height: var(--dim);
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url('MICA.jpeg');
+    background-size: cover;
+}
