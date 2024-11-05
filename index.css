@@ -9,9 +9,9 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: skyblue;
     background-image: url('MICA.jpeg');
-    background-size: auto;
+    background-size: 400px ;
     background-repeat: no-repeat;
     background-position: center;
 }
