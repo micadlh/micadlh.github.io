@@ -1,25 +1,43 @@
-.box {
-    --dim: 200px;
-    background-color: red;
-    width: var(--dim);
-    height: var(--dim);
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
-}
 .logo {
     display: flex;
     justify-self: flex-end;
     align-items: flex-end;
 }
 body {
-    background-color: skyblue;
-    background-image: url('MICA.jpeg');
-    background-size: 400px ;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: rgb(39, 39, 39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
-h1 {
+header {
+  display: flex;
+  position: relative;
+
+
+}
+.image {
+  width: 15em;
+  border-radius: 100em;
+  position: sticky;
+  left: 0;
+  top: 0;
+
+}
+.menu ul {
     display: flex;
-    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    list-style: none;
+    background-color:rgb(39, 39, 39);
+  }
+li{
+    color: white;
+
+  }
+li:hover {
+    background-color: rgb(108, 11, 243);
+  }
+ul > .submenu {
+  display: none;
+}
+.dropdown:hover .submenu{ 
+  display: block;
 }
